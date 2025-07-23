@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-container {
+    border: 2px solid darkred;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    /*Add a variable height and a width with javascript*/
+    background: white;
+    border: 2px solid rgb(0, 0, 0);
+    flex: 0 1 auto;
+}
