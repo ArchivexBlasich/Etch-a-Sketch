@@ -19,6 +19,9 @@ body {
 }
 
 .main-container {
+    height: 604px;
+    width: 604px;
+    flex: 0 1 auto;
     border: 2px solid darkred;
     align-self: center;
     display: flex;
@@ -30,6 +33,6 @@ body {
 .square {
     /*Add a variable height and a width with javascript*/
     background: white;
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     flex: 0 1 auto;
 }
